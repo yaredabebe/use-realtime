@@ -1,0 +1,45 @@
+{
+  "name": "use-realtime",
+  "version": "1.0.1",
+  "description": "A powerful React hook for real-time WebSocket connections with auto-reconnect, message queuing, and event management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "websocket",
+    "realtime",
+    "hook",
+    "typescript",
+    "socket",
+    "events",
+    "connection",
+    "auto-reconnect"
+  ],
+  "author": "yared abebe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaredabebe/use-realtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaredabebe/use-realtime/issues"
+  },
+  "homepage": "https://github.com/yaredabebe/use-realtime#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.1.0"
+  }
+}
